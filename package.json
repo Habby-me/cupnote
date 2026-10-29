@@ -1,0 +1,23 @@
+{
+  "name": "cupnote",
+  "version": "1.1.0",
+  "private": true,
+  "description": "杯间日记 · 奶茶与咖啡日历手帐",
+  "license": "MIT",
+  "author": "Habby-me",
+  "repository": { "type": "git", "url": "https://github.com/Habby-me/cupnote.git" },
+  "bugs": { "url": "https://github.com/Habby-me/cupnote/issues" },
+  "homepage": "https://cupnote-daily-sips.cbgftqczfq.chatgpt.site",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:coverage": "node --test --experimental-test-coverage tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "verify": "npm run check && npm test"
+  },
+  "type": "module",
+  "devDependencies": { "playwright": "1.62.1" }
+}
