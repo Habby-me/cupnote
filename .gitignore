@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+.sites-runtime/
+playwright-report/
+test-results/
+coverage/
+*.tar.gz

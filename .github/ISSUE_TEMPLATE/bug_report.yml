@@ -1,0 +1,27 @@
+name: Bug report / 问题反馈
+description: 描述一个可以复现的问题。
+labels: []
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 1. 打开哪个页面 2. 进行了什么操作 3. 观察到什么结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期和实际结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器和设备
+      placeholder: 例如 Chrome / iPhone Safari
+  - type: textarea
+    id: context
+    attributes:
+      label: 其他信息
+      description: 请勿上传自己的完整饮品备份或包含隐私信息的截图。

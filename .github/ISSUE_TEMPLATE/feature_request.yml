@@ -1,0 +1,15 @@
+name: Feature request / 功能建议
+description: 说说你希望怎样记录下一杯。
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望怎样使用？
+    validations:
+      required: true
